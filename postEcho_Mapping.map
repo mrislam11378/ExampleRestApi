@@ -7,6 +7,7 @@
     <output path="jar:file://!com/ibm/etools/mft/map/xsds/predefined/BlobMessage.xsd" var="var3"/>
     <namespaces>
         <namespace kind="supplement" prefix="out" uri="http://www.ibm.com/iib/msl/json"/>
+        <namespace kind="extension" prefix="fn" uri="http://www.w3.org/2005/xpath-functions"/>
     </namespaces>
     <generation engine="xquery"/>
     <mappingDeclaration name="postEcho_Mapping">
